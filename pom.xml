@@ -20,6 +20,7 @@
     </licenses>
 
     <modules>
+        <module>trivia</module>
         <module>task-tracker</module>
     </modules>
 
