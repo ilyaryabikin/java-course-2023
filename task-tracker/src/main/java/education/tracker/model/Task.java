@@ -104,6 +104,7 @@ public class Task<T> {
     }
 
     @Override
+    @SuppressWarnings("OperatorWrap")
     public String toString() {
         return "Task{" +
             "id=" + id +

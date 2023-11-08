@@ -7,10 +7,9 @@
     <parent>
         <groupId>education</groupId>
         <artifactId>essentials</artifactId>
-        <version>1.0.0</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>task-tracker</artifactId>
-
 
 </project>

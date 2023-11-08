@@ -11,7 +11,7 @@ import org.jetbrains.annotations.Unmodifiable;
 public interface TaskTracker<T> {
 
     @NotNull
-    Task<T> add(@NotNull Task<T> task);
+    Task<T> save(@NotNull Task<T> task);
 
     @Nullable
     Task<T> getById(@NotNull T id);
@@ -21,7 +21,7 @@ public interface TaskTracker<T> {
     List<Task<T>> getAll();
 
     @Nullable
-    Task<T> remove(T id);
+    Task<T> remove(@NotNull T id);
 
     @NotNull
     @Unmodifiable
@@ -35,7 +35,7 @@ public interface TaskTracker<T> {
 
     @NotNull
     @Unmodifiable
-    List<Task<T>> getOrderedByPriorityWithStatus(TaskStatus status);
+    List<Task<T>> getOrderedByPriorityWithStatus(@NotNull TaskStatus status);
 
     @NotNull
     @Unmodifiable
