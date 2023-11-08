@@ -20,8 +20,8 @@
     </licenses>
 
     <modules>
-        <module>trivia</module>
-        <module>task-tracker</module>
+        <module>01-trivia</module>
+        <module>02-task-tracker</module>
     </modules>
 
     <properties>

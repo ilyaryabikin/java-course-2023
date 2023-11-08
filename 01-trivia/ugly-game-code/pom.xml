@@ -6,10 +6,10 @@
 
     <parent>
         <groupId>education</groupId>
-        <artifactId>trivia</artifactId>
+        <artifactId>01-trivia</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>fine-game-code</artifactId>
+    <artifactId>ugly-game-code</artifactId>
 
 </project>

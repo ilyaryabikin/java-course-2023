@@ -6,10 +6,16 @@
 
     <parent>
         <groupId>education</groupId>
-        <artifactId>trivia</artifactId>
+        <artifactId>essentials</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>ugly-game-code</artifactId>
+    <artifactId>01-trivia</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ugly-game-code</module>
+        <module>fine-game-code</module>
+    </modules>
 
 </project>

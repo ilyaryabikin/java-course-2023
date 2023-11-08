@@ -10,6 +10,6 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>task-tracker</artifactId>
+    <artifactId>02-task-tracker</artifactId>
 
 </project>
