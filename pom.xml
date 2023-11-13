@@ -22,6 +22,7 @@
     <modules>
         <module>01-trivia</module>
         <module>02-task-tracker</module>
+        <module>03-kv</module>
     </modules>
 
     <properties>
@@ -137,6 +138,8 @@
                         <release>${java.release}</release>
                         <parameters>true</parameters>
                         <compilerArgument>-Xlint:all</compilerArgument>
+                        <showWarnings>true</showWarnings>
+                        <showDeprecation>true</showDeprecation>
                     </configuration>
                 </plugin>
                 <plugin>
